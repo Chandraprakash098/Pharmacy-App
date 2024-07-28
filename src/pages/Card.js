@@ -5,13 +5,15 @@ import { useAuth } from "../hooks/useAuth";
 
 function Card({ data }) {
   const [quantity, setQuantity] = useState(1);
-  const [totalPrice, setTotalPrice] = useState(data.price);
+  const [totalPrice, setTotalPrice] = useState(0);
   const { isLoggedIn } = useAuth();
   const router = useRouter();
 
   useEffect(() => {
-    setTotalPrice((quantity * parseFloat(data.price)).toFixed(2));
-  }, [quantity, data.price]);
+    if (data && data.price) {
+      setTotalPrice((quantity * parseFloat(data.price)).toFixed(2));
+    }
+  }, [quantity, data]);
 
   const handleQuantityChange = (e) => {
     setQuantity(parseInt(e.target.value));
@@ -24,6 +26,10 @@ function Card({ data }) {
       router.push("/login"); // Redirect to the login page
     }
   };
+
+  if (!data) {
+    return <div>Loading...</div>; // Or any other placeholder you prefer
+  }
 
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-1">
