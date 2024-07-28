@@ -1,0 +1,51 @@
+[{  
+    "name":"Dolo",
+    "price":"80",
+    "description":"Dolo 650 tablet is used to treat pain, fever, headaches, toothaches, migraines, body aches, and fever.It contains paracetamol",
+    "img":"https://img.freepik.com/free-photo/medicine-capsules-global-health-with-geometric-pattern-digital-remix_53876-126742.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721952000&semt=sph"
+},
+{
+    "name":"Azithromycin",
+    "price":"120",
+    "description":"Azithromycin belongs to the class of macrolide antibiotics. It works by killing bacteria or preventing their growth.",
+    "img":"https://img.freepik.com/premium-photo/azithromycin_818056-6892.jpg?w=1060"
+},
+{
+
+    "name":"Pyrigesic",
+    "price":"90",
+    "description":"Pyrigesic Tablet helps relieve pain and fever by blocking the release of certain chemical messengers responsible for fever and pain. ",
+    "img":"https://img.freepik.com/premium-photo/get-effective-antibacterial-treatment-with-azithromycin-tablet-manila-philippines-pharmacy_817921-19636.jpg?w=1380"
+},
+{
+    "name":"Montela-L",
+    "price":"70",
+    "description":"Montela-L Tablet is a combination of two medicines: Levocetirizine and Montelukast, which relieves sneezing and runny nose due to allergies.",
+    "img":"https://img.freepik.com/premium-photo/health-care-made-easy-azithromycin-tablet-antibacterial-treatment-philippines_817921-19249.jpg?w=1380"
+},
+{
+    "name":"doxy",
+    "price":"240",
+    "description":"Doxy Tablet is an antibiotic medicine used to treat bacterial infections in your body",
+    "img":"https://img.freepik.com/free-vector/vector-realistic-pill-blister-pack_107791-612.jpg?t=st=1721993460~exp=1721997060~hmac=8fea4c2132caf55024367da3f49cb4160f2b0a15d6441dee8756cd6a48933daa&w=740"
+},
+{
+    "name":"Adderall ",
+    "price":"200",
+    "description":"Adderall commonly used to treat attention deficit hyperactivity disorder (ADHD).",
+    "img":"https://img.freepik.com/free-vector/pills-capsules-foil-blister-pack-mockup_107791-25894.jpg?t=st=1721993568~exp=1721997168~hmac=50d8dc45a84f0a3ffc8bf59bc4f3b5e8861fdcb86fd2aac0aff73bdf03112714&w=1060"
+},
+{
+    "name":" Amlodipine",
+    "price":"120",
+    "description":"Amlodipine is a calcium channel blocker used to treat high blood pressure (hypertension)",
+    "img":"https://img.freepik.com/premium-psd/psd-round-pills-white-background_668290-439.jpg?w=740"
+},
+{
+    "name":"Ativan",
+    "price":"100",
+    "description":"Ativan 1mg Tablet is used to treat anxiety disorders such as generalized anxiety disorder",
+    "img":"https://img.freepik.com/premium-psd/pack-red-pills-white-blister_668290-381.jpg?w=740"
+}
+
+]
